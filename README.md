@@ -1,6 +1,9 @@
 # react-with-style
 
-Enhance a React component with styles.
+> Enhance a React component with styles.
+
+[![Build Status][build-badge]][build]
+[![npm version][npm-badge]][npm]
 
 ## Installation
 
@@ -11,7 +14,7 @@ npm install --save react-with-style
 ## Usage
 
 ```js
-import { withStyle } from 'react-with-style'
+import withStyle from 'react-with-style'
 
 import MyComponent from './MyComponent'
 
@@ -33,3 +36,9 @@ Passes additional styles to the wrapped component. The provided styles take prec
 ## License
 
 MIT
+
+[build-badge]: https://travis-ci.org/apalm/react-with-style.svg?branch=master
+[build]: https://travis-ci.org/apalm/react-with-style
+
+[npm-badge]: https://badge.fury.io/js/react-with-style.svg
+[npm]: https://badge.fury.io/js/react-with-style
